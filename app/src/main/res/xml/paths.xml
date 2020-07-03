@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<!--  내부메모리 Uri 공개-->
+<!--   path="." : 모든 경로-->
+<!--   path="aaa/bbb/ccc" : 특정파일지칭-->
+    <files-path
+        name="files"
+        path="."/>
+<!--    외부메모리 공용 영역 파일 Uri 공개-->
+<!--    Environment.getExternalStorageDirectory() 경로-->
+    <external-path
+        name="external"
+        path="."/>
+<!--    외부메모리 중 앱 고유영역 Uri 공개-->
+<!--    getExternalFileDir() 경로-->
+    <external-files-path
+        name="external_file"
+        path="."/>
+
+</paths>
